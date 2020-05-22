@@ -1,6 +1,6 @@
 
-let left = 0;
-let right = 0;
+let left = 00;
+let right = 00;
 
 const scoreLeft = document.getElementById('left');
 const scoreRight = document.getElementById('right');
@@ -17,6 +17,6 @@ function score2(){
 }
 
 function reset(){
-    scoreLeft.textContent = left = 0;
-    scoreRight.textContent = right = 0;
+    scoreLeft.textContent = left = 00;
+    scoreRight.textContent = right = 00;
 }
