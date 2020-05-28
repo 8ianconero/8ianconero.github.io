@@ -44,7 +44,7 @@ body{
 
 .divisor{
     animation-name: blink;
-    animation-duration: .99s;
+    animation-duration: .90s;
     animation-iteration-count: infinite;
 }
 
