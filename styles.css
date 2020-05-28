@@ -47,9 +47,23 @@ body{
     .right,
     .divisor{
         font-size: 35vw;
-        
-
     }
+    
+.divisor{
+    animation-name: blink;
+    animation-duration: .99s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgb(0, 162, 255);
+    }
+}
+    
     .score{
         display: flex;
         align-items: center;
