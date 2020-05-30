@@ -43,6 +43,7 @@ body{
 }
 
 .divisor{
+    font-family: 'Rajdhani', sans-serif;
     animation-name: blink;
     animation-duration: .90s;
     animation-iteration-count: infinite;
